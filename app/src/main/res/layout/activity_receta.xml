@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="270dp"
+        android:layout_height="225dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/btnPostres"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Postres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btnCarnes"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Carnes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPostres" />
+
+    <Button
+        android:id="@+id/btnEnsalada"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Ensalada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCarnes" />
+
+    <Button
+        android:id="@+id/btnTradicional"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Tradicional"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEnsalada" />
+
+    <Button
+        android:id="@+id/btnComidaRapida"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Comida Rapidoa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTradicional" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Atras"
+        app:layout_constraintTop_toBottomOf="@+id/btnComidaRapida"
+        tools:layout_editor_absoluteX="49dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

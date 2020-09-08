@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="272dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="69dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imagen" />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="130dp"
+        android:text="Ver mis recetas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btnRecetas"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="130dp"
+        android:text="Recetas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVer" />
+
+    <Button
+        android:id="@+id/btnTips"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="130dp"
+        android:text="Tips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecetas" />
+
+    <Button
+        android:id="@+id/btnPreguntas"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="130dp"
+        android:text="Preguntas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTips" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="69dp"
+        android:text="Salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
